@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import { StatisticsList } from './StatisticsList'
 
-export const Statistics = ({stats, title}) => {
+export const Statistics = ({stats, title="Upload stats"}) => {
     return (
         <section class="statistics">
 
-            {title ? <h2 class="title">{title}</h2> : <h2 class="title">Upload stats</h2>}
+            {title && <h2 class="title">{title}</h2>}
             
             <ul class="stat-list">
                 {stats.map(item => (
