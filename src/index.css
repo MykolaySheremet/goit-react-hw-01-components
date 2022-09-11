@@ -2,6 +2,7 @@
 @import './components/profile/_profile.scss';
 @import './components/statistics/_statisticscss.scss';
 @import './components/friendList/_friendliststyle.scss';
+@import './components/historytransactions/_transactionstyle.scss';
 
 body {
   margin: 0;
