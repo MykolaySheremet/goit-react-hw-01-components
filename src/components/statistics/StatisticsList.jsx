@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import css from './Statistics.module.css';
 
 
 
@@ -6,8 +7,8 @@ export const StatisticsList = ({label, percentage }) => {
 
     return (
             <>
-                <span class="label"> {label} </span>
-                <span class="percentage">{percentage}%</span>
+                <span className={css.label}> {label} </span>
+                <span className={css.percentage}>{percentage}%</span>
             </>                     
             )
 }
